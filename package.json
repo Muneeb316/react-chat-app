@@ -1,0 +1,30 @@
+{
+  "name": "react-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server": "^2.17.0",
+    "graphql": "^15.3.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muneeb316/react-chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muneeb316/react-chat-app/issues"
+  },
+  "homepage": "https://github.com/Muneeb316/react-chat-app#readme"
+}
