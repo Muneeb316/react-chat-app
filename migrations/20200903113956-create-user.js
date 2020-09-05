@@ -17,7 +17,13 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
         unique: true,
+
       },
+      password: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      imageUrl: Sequelize.STRING,
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
